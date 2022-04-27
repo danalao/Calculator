@@ -13,8 +13,7 @@ spec:
         app: calculator
     spec:
       containers:
-      - name: calculator
+      - name: calculator-container
         image: danalao/calculator
         ports:
-        - name: nodejs-port
-          containerPort: 3000
+          - containerPort: 3000
